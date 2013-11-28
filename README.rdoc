@@ -1,18 +1,18 @@
 == README
 
-Assigment v1.0
-Date: 28.11.2013
-Created by: Itay BenNer
+Assigment v1.0<br/>
+Date: 28.11.2013<br/>
+Created by: Itay BenNer<br/>
 
-*1. created 'Metric' scaffold
+* 1. created 'Metric' scaffold
 
-*2. Inside /lib/tasks/ folder creat a new rake file name 'insert_matrics'
+* 2. Inside /lib/tasks/ folder creat a new rake file name 'insert_matrics'
 	with two tasks
 
-	- metrics:clearall => clear all metric recordes
+	- metrics:clearall => clear all metric recordes <br/>
 	- metrics:import['log.json.file.path']
 
-*3. Created new view named locations (for e.g http://localhost:3000/metrics/locations)
+* 3. Created new view named locations (for e.g http://localhost:3000/metrics/locations)
 	there you can search for metrics by name and see the, on the map as markers with all metric data as overllay.
 
 
