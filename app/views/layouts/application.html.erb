@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GetTexi</title>
+
+  <%# stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= yield :css %>
+
+  <%# javascript_include_tag "application", "data-turbolinks-track" => true %>
+  
+  <%= javascript_include_tag "jquery" %>
+  <%= javascript_include_tag "jquery_ujs"%>
+  <%= javascript_include_tag "jquery-tmpl"%>
+
+  
+  <%= yield :js %>
+  
+  <%= csrf_meta_tags %>
+
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
+
+

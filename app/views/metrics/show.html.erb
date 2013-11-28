@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>N:</strong>
+  <%= @metric.n %>
+</p>
+
+<p>
+  <strong>V:</strong>
+  <%= @metric.v %>
+</p>
+
+<p>
+  <strong>T:</strong>
+  <%= @metric.t %>
+</p>
+
+<p>
+  <strong>Lat:</strong>
+  <%= @metric.lat %>
+</p>
+
+<p>
+  <strong>Lon:</strong>
+  <%= @metric.lon %>
+</p>
+
+<p>
+  <strong>Ts:</strong>
+  <%= @metric.ts %>
+</p>
+
+<p>
+  <strong>Driver:</strong>
+  <%= @metric.driver_id %>
+</p>
+
+<%= link_to 'Edit', edit_metric_path(@metric) %> |
+<%= link_to 'Back', metrics_path %>

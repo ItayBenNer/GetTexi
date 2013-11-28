@@ -1,0 +1,44 @@
+﻿
+/*#region Infobox */
+.infobox-default-style
+{
+    width:auto;
+    opacity: 0.90;
+    padding:1px 5px;
+    /*#region arrow postistion - can be remove or change*/
+    /*background:url(../img/map-rectangle.png) no-repeat 30% bottom;*/
+    background: #333;
+    border: 1px #fff;
+    
+}
+
+    .infobox-default-style a
+    {
+        background-color: #65584f;
+         border: 1px solid #5e534c;
+        text-decoration: none;
+        display:block;
+        padding:5px 10px;
+    }
+
+    .infobox-default-style .infobox-text
+    {
+        font-size: 12px;
+        color: #f7ec97;
+        text-align: left;
+    }
+
+
+    .gmap_div{
+        width: 95%;
+        height: 800px;
+    }
+
+/*#endregion */
+
+
+/*#region Sites  Specific Style For Infobox */
+
+ /*@@you can set the base class in the user control*/
+
+/*#endregion */

@@ -1,0 +1,36 @@
+
+<%# style includes %>
+<% content_for :css do -%>
+  <%= stylesheet_link_tag  'locations' %>
+  <%= stylesheet_link_tag  'googlemap-widget' %>
+<% end -%>
+
+<%# java includes %>
+<% content_for :js do -%>
+	<%= javascript_include_tag "//maps.google.com/maps/api/js?sensor=false&language=iw" %>
+	<%= javascript_include_tag 'infobox' %>
+	<%= javascript_include_tag 'googlemap-widget' %>
+	<%= javascript_include_tag 'metrics' %>
+<% end -%>
+
+<div class="content">
+
+	<div class="search-container">
+		<input id="search_input" class="input-search" placeholder="search metric name..." type='text'></input>
+		<button id="search_btn" class="btn-search" >search</button>
+		<!--<img src='/images/loader.gif' class="search loader">-->
+	</div>
+	<div id="g_dvGoogleMapWrapper"  class="googleMapWrapper" 
+		data-center-address="tel aviv israel"
+		data-marker-image="/images/marker.png"
+		data-locations='[]'
+		data-infobox-class="info-box"
+		data-zoom="13" >
+    <div id="g_gmap_div" class="gmap_div"></div>
+</div>
+
+</div>
+
+
+
+

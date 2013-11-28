@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  'n': MyString
+  v: MyString
+  t: MyString
+  lat: 1.5
+  lon: 1.5
+  ts: 2013-11-25 10:55:18
+  driver_id: 1
+
+two:
+  'n': MyString
+  v: MyString
+  t: MyString
+  lat: 1.5
+  lon: 1.5
+  ts: 2013-11-25 10:55:18
+  driver_id: 1

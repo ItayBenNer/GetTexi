@@ -1,0 +1,50 @@
+
+body{
+
+	background: #eee;
+	font: Arial;
+}
+
+.content{
+  width: 100%; ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+.search-container{
+	width: 98%;
+	background: #e3e3e3;
+	padding: 5px;
+
+}
+.input-search{
+	width:65%;
+	height: 30px;
+	font-size: 14px;
+	padding: 2px 22px 2px 8px;
+	border: 1px solid #d9d9d9;
+	border-top: 1px solid
+	-webkit-appearance: none;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.btn-search{
+	width: 10%;
+	height: 35px;
+	color: fff;
+	font-size: 16px;
+	font-weight: bold;
+	color: #555;
+}
+.gmap_div{
+    width: 98% !important;
+    height: 800px;
+    box-shadow: 1px 0px 3px #888888;
+    
+}
+.googleMapWrapper{
+	text-align: center;
+	margin: 5px;
+}
+input.loader{
+	background: url('/images/loader.gif') right center no-repeat;;
+}
