@@ -1,34 +1,23 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Assigment v1.0
+Date: 28.11.2013
+Created by: Itay BenNer
 
-Things you may want to cover:
+*1. created 'Metric' scaffold
 
-* Ruby version
+*2. Inside /lib/tasks/ folder creat a new rake file name 'insert_matrics'
+	with two tasks
 
-* System dependencies
+	- metrics:clearall => clear all metric recordes
+	- metrics:import['log.json.file.path']
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+*3. Created new view named locations (for e.g http://localhost:3000/metrics/locations)
+	there you can search for metrics by name and see the, on the map as markers with all metric data as overllay.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
-
-#github steps to fist commit
-git add .
-git add -u
-git commit -m "First commit"
-git push origin master
+# Github steps to first commit
+	* git add .
+	* git add -u
+	* git commit -m "First commit"
+	* git push origin master
